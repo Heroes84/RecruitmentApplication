@@ -1,0 +1,67 @@
+ext {
+    KOTLIN = '1.3.72'
+    MIN_SDK = 23
+    TARGET_SDK = 29
+
+
+    /* version list https://developer.android.com/jetpack/androidx and https://dl.google.com/dl/android/maven2/index.html */
+    def lifecycle_version = '2.2.0'
+    def androidx_core = '1.1.0'
+    def androidx_fragment = '1.2.5'
+    def security_version = '1.0.0-rc02'
+    def navigation_version = '2.3.0'
+
+    androidx = [
+            appcompat          : "androidx.appcompat:appcompat:$androidx_core",
+            fragment           : "androidx.fragment:fragment-ktx:$androidx_fragment",
+            corektx            : "androidx.core:core-ktx:$androidx_core",
+            constraintlayout   : "androidx.constraintlayout:constraintlayout:1.1.3",
+            lifecycle          : "androidx.lifecycle:lifecycle-extensions:$lifecycle_version",
+            lifecycle_common   : "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version",
+            recyclerview       : "androidx.recyclerview:recyclerview:1.1.0",
+            navigation_fragment: "androidx.navigation:navigation-fragment-ktx:$navigation_version",
+            navigation_ui      : "androidx.navigation:navigation-ui-ktx:$navigation_version",
+            security           : "androidx.security:security-crypto:$security_version",
+            biometric          : "androidx.biometric:biometric:1.0.1"
+    ]
+
+    google = [
+            material            : "com.google.android.material:material:1.0.0",
+            crashlytics         : 'com.crashlytics.sdk.android:crashlytics:2.10.1',
+    ]
+
+    //Third party lib not UI
+    def dagger2 = '2.27'
+    def retrofit = '2.6.1'
+    def moshi = '1.9.0'
+
+    deps = [
+            rxjava2                : "io.reactivex.rxjava2:rxjava:2.2.19",
+            rxandroid              : "io.reactivex.rxjava2:rxandroid:2.1.1",
+            rxKotlin               : "io.reactivex.rxjava2:rxkotlin:2.4.0",
+            dagger2_runtime        : "com.google.dagger:dagger:${dagger2}",
+            dagger2_android        : "com.google.dagger:dagger-android:${dagger2}",
+            dagger2_android_support: "com.google.dagger:dagger-android-support:${dagger2}",
+            dagger2_annotation     : "javax.inject:javax.inject:1",
+            netowrk1               : "com.squareup.retrofit2:converter-moshi:${retrofit}",
+            network2               : "com.squareup.retrofit2:adapter-rxjava2:${retrofit}",
+            moshi                  : "com.squareup.moshi:moshi-kotlin:${moshi}",
+            network_log            : 'com.squareup.okhttp3:logging-interceptor:4.2.1',
+            logger                 : 'com.jakewharton.timber:timber:4.7.1',
+    ]
+
+    deps_kapt = [
+            moshi            : "com.squareup.moshi:moshi-kotlin-codegen:${moshi}",
+            dagger2_compiler : "com.google.dagger:dagger-compiler:${dagger2}",
+            dagger2_processor: "com.google.dagger:dagger-android-processor:${dagger2}"
+    ]
+
+    // Tests
+    def junit5 = '5.3.2'
+    deps_test = [
+            junit     : "org.junit.jupiter:junit-jupiter-api:${junit5}",
+            junitParms: "org.junit.jupiter:junit-jupiter-params:${junit5}",
+            mockk     : "io.mockk:mockk:1.10.0",
+            kotlinTest: "org.jetbrains.kotlin:kotlin-test:1.1.51"
+    ]
+}
