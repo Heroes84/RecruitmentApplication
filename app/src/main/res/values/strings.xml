@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">recruitmentprocess</string>
+
+    <!--//region title -->
+    <string name="label_desktop">Safe camera app</string>
+    <!--//endregion title -->
+
+    <string name="hint_desktop">Enter the password</string>
 </resources>
