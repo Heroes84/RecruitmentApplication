@@ -1,4 +1,4 @@
-package de.ynd.ui.view
+package de.ynd.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/root">
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    app:startDestination="@id/desktopFragment">
 
+    <fragment
+        android:id="@+id/desktopFragment"
+        android:name="de.ynd.ui.desktop.DesktopFragment"
+        android:label="DesktopFragment"
+        tools:layout="@layout/desktop_fragment"/>
 </navigation>

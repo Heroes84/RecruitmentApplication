@@ -2,8 +2,10 @@
     <string name="app_name">recruitmentprocess</string>
 
     <!--//region title -->
-    <string name="label_desktop">Safe camera app</string>
+    <string name="label_desktop">Safe camera</string>
+    <string name="label_password">password</string>
+    <string name="label_add">add</string>
     <!--//endregion title -->
 
-    <string name="hint_desktop">Enter the password</string>
+    <string name="hint_password">Enter the password</string>
 </resources>
