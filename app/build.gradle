@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply from: '../dependencies.gradle'
+apply plugin: "androidx.navigation.safeargs.kotlin"
 
 android {
     compileSdkVersion TARGET_SDK
@@ -23,6 +24,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ["-XXLanguage:+InlineClasses"]
+    }
 }
 
 dependencies {
@@ -32,9 +43,9 @@ dependencies {
 
     implementation androidx.values()
     implementation google.values()
+    implementation deps.values()
 
-    kapt deps_kapt.dagger2_compiler
-    kapt deps_kapt.dagger2_processor
+    kapt deps_kapt.values()
 
     testImplementation deps_test.values()
 
