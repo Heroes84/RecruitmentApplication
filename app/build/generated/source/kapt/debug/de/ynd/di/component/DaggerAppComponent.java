@@ -2,24 +2,90 @@
 package de.ynd.di.component;
 
 import android.app.Application;
+import androidx.lifecycle.ViewModel;
+import dagger.android.AndroidInjector;
+import dagger.android.DaggerApplication_MembersInjector;
+import dagger.android.DispatchingAndroidInjector;
+import dagger.android.DispatchingAndroidInjector_Factory;
+import dagger.android.support.DaggerAppCompatActivity_MembersInjector;
+import dagger.android.support.DaggerFragment_MembersInjector;
+import dagger.internal.InstanceFactory;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
 import de.ynd.RecruitmentApplication;
+import de.ynd.di.InjectingViewModelFactory;
+import de.ynd.di.module.ActivityProviderModule_ContributeMainActivity;
+import de.ynd.di.module.FragmentProviderModule_ProvideDesktopFragment;
+import de.ynd.ui.MainActivity;
+import de.ynd.ui.MainActivity_MembersInjector;
+import de.ynd.ui.desktop.DesktopFragment;
+import de.ynd.ui.desktop.DesktopViewModel;
+import de.ynd.ui.desktop.DesktopViewModel_Factory;
+import de.ynd.ui.view.BaseFragment_MembersInjector;
+import java.util.Collections;
+import java.util.Map;
+import javax.inject.Provider;
 
 @SuppressWarnings({
     "unchecked",
     "rawtypes"
 })
 public final class DaggerAppComponent implements AppComponent {
-  private DaggerAppComponent(Application application) {
+  private Provider<ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent.Factory> mainActivitySubcomponentFactoryProvider;
 
+  private Provider<FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent.Factory> desktopFragmentSubcomponentFactoryProvider;
+
+  private Provider<Application> applicationProvider;
+
+  private Provider<DesktopViewModel> desktopViewModelProvider;
+
+  private DaggerAppComponent(Application applicationParam) {
+
+    initialize(applicationParam);
   }
 
   public static AppComponent.Builder builder() {
     return new Builder();
   }
 
+  private Map<Class<?>, Provider<AndroidInjector.Factory<?>>> getMapOfClassOfAndProviderOfAndroidInjectorFactoryOf(
+      ) {
+    return MapBuilder.<Class<?>, Provider<AndroidInjector.Factory<?>>>newMapBuilder(2).put(MainActivity.class, (Provider) mainActivitySubcomponentFactoryProvider).put(DesktopFragment.class, (Provider) desktopFragmentSubcomponentFactoryProvider).build();}
+
+  private DispatchingAndroidInjector<Object> getDispatchingAndroidInjectorOfObject() {
+    return DispatchingAndroidInjector_Factory.newInstance(getMapOfClassOfAndProviderOfAndroidInjectorFactoryOf(), Collections.<String, Provider<AndroidInjector.Factory<?>>>emptyMap());}
+
+  private Map<Class<? extends ViewModel>, Provider<ViewModel>> getMapOfClassOfAndProviderOfViewModel(
+      ) {
+    return Collections.<Class<? extends ViewModel>, Provider<ViewModel>>singletonMap(DesktopViewModel.class, (Provider) desktopViewModelProvider);}
+
+  private InjectingViewModelFactory getInjectingViewModelFactory() {
+    return new InjectingViewModelFactory(getMapOfClassOfAndProviderOfViewModel());}
+
+  @SuppressWarnings("unchecked")
+  private void initialize(final Application applicationParam) {
+    this.mainActivitySubcomponentFactoryProvider = new Provider<ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent.Factory>() {
+      @Override
+      public ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent.Factory get() {
+        return new MainActivitySubcomponentFactory();}
+    };
+    this.desktopFragmentSubcomponentFactoryProvider = new Provider<FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent.Factory>() {
+      @Override
+      public FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent.Factory get(
+          ) {
+        return new DesktopFragmentSubcomponentFactory();}
+    };
+    this.applicationProvider = InstanceFactory.create(applicationParam);
+    this.desktopViewModelProvider = DesktopViewModel_Factory.create(applicationProvider);
+  }
+
   @Override
   public void inject(RecruitmentApplication arg0) {
+    injectRecruitmentApplication(arg0);}
+
+  private RecruitmentApplication injectRecruitmentApplication(RecruitmentApplication instance) {
+    DaggerApplication_MembersInjector.injectAndroidInjector(instance, getDispatchingAndroidInjectorOfObject());
+    return instance;
   }
 
   private static final class Builder implements AppComponent.Builder {
@@ -35,6 +101,56 @@ public final class DaggerAppComponent implements AppComponent {
     public AppComponent build() {
       Preconditions.checkBuilderRequirement(application, Application.class);
       return new DaggerAppComponent(application);
+    }
+  }
+
+  private final class MainActivitySubcomponentFactory implements ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent.Factory {
+    @Override
+    public ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent create(
+        MainActivity arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new MainActivitySubcomponentImpl(arg0);
+    }
+  }
+
+  private final class MainActivitySubcomponentImpl implements ActivityProviderModule_ContributeMainActivity.MainActivitySubcomponent {
+    private MainActivitySubcomponentImpl(MainActivity arg0) {
+
+    }
+
+    @Override
+    public void inject(MainActivity arg0) {
+      injectMainActivity(arg0);}
+
+    private MainActivity injectMainActivity(MainActivity instance) {
+      DaggerAppCompatActivity_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.getDispatchingAndroidInjectorOfObject());
+      MainActivity_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.getInjectingViewModelFactory());
+      return instance;
+    }
+  }
+
+  private final class DesktopFragmentSubcomponentFactory implements FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent.Factory {
+    @Override
+    public FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent create(
+        DesktopFragment arg0) {
+      Preconditions.checkNotNull(arg0);
+      return new DesktopFragmentSubcomponentImpl(arg0);
+    }
+  }
+
+  private final class DesktopFragmentSubcomponentImpl implements FragmentProviderModule_ProvideDesktopFragment.DesktopFragmentSubcomponent {
+    private DesktopFragmentSubcomponentImpl(DesktopFragment arg0) {
+
+    }
+
+    @Override
+    public void inject(DesktopFragment arg0) {
+      injectDesktopFragment(arg0);}
+
+    private DesktopFragment injectDesktopFragment(DesktopFragment instance) {
+      DaggerFragment_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.getDispatchingAndroidInjectorOfObject());
+      BaseFragment_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.getInjectingViewModelFactory());
+      return instance;
     }
   }
 }

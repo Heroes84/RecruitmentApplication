@@ -7,7 +7,7 @@ INJECTED from /Users/radoslawwawrzyniak/workspace/YND/app/src/main/AndroidManife
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e291a274e1a9d177f156dbc9ed8fba94/biometric-1.0.1/AndroidManifest.xml:17:1-34:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/04741c5983d5f6b28dcc833fbadc2690/navigation-ui-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a38b85d8d616318650feac7ccfb46435/navigation-ui-2.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/107a2ef7bd6e2118bdab84e4ef26c7f7/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ef3d9aac9ea3ee22b452a43729b2f494/material-1.2.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-android-support:2.27] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2dfe9b24057f7b494b12bf98c2cc6329/jetified-dagger-android-support-2.27/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/37f8c4dd40cae9c335785b1e6a0e88cd/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/4935eff452ad6734f049cf18619cf9ad/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -18,6 +18,7 @@ MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] /Users/radoslawwaw
 MERGED from [androidx.core:core-ktx:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7d30c85e9cbb1fcbf6a3eaeb35cc5f43/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/cd7593004dafd610de9f86ca88185a2a/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.security:security-crypto:1.0.0-rc02] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7e37232d6a92b8121ef99aa3ad72d70f/jetified-security-crypto-1.0.0-rc02/AndroidManifest.xml:17:1-24:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9b660afda04df77e64db1847066041b4/jetified-crashlytics-2.10.1/AndroidManifest.xml:2:1-26:12
@@ -27,7 +28,6 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/radoslawwawrzyniak/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/fbee298f0bbdea7962769ccbd9ff9bb4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ead8fb612c5fad5826afc2641cd43bce/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ac06e3be626ac6f177c83aa3c2ad0ed8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/8291a2f8be5084281f662506959bfa7f/navigation-fragment-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -37,17 +37,13 @@ MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/radoslawwawrzyni
 MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e8512d198c4ad453a66ee4c853c5614c/navigation-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/1f25c003df0eea10c87a8ff8e9921dd9/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/806cd4b67264b44b11d4b92e828efd8d/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/84f29f6a0e2494d6bc34180d14d0469e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d02c1dd1b5420f0f04cccec08ca490f7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9554e0a4f8f8c58f7343e08240abf122/drawerlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e3aea6aaf02de817c1f5f8947c9e13fa/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/79cf9081f68900644955d7d95a744bff/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2668df430eade274b301a7d11ee4e666/navigation-common-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/321f56884c311c286a7686d7e6415a5e/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
@@ -60,9 +56,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/radoslawwawrzy
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/071c7be180247297141de3e5a2aa234c/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/1113db8810613dc890be20566419a957/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39e4f193027f9d131e902cc7bf615044/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/329222882f691ef5d555ffb8f98e48dc/jetified-beta-1.2.10/AndroidManifest.xml:2:1-13:12
 MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ba55f9f3f5e79f2e8ecb421cd533d3e1/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
@@ -88,8 +82,8 @@ application
 ADDED from /Users/radoslawwawrzyniak/workspace/YND/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e291a274e1a9d177f156dbc9ed8fba94/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e291a274e1a9d177f156dbc9ed8fba94/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
-MERGED from [com.google.android.material:material:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/107a2ef7bd6e2118bdab84e4ef26c7f7/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/107a2ef7bd6e2118bdab84e4ef26c7f7/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ef3d9aac9ea3ee22b452a43729b2f494/material-1.2.0-beta01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ef3d9aac9ea3ee22b452a43729b2f494/material-1.2.0-beta01/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/cd7593004dafd610de9f86ca88185a2a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/cd7593004dafd610de9f86ca88185a2a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
@@ -152,8 +146,8 @@ MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/radoslawwawrzyn
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/04741c5983d5f6b28dcc833fbadc2690/navigation-ui-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a38b85d8d616318650feac7ccfb46435/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a38b85d8d616318650feac7ccfb46435/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/107a2ef7bd6e2118bdab84e4ef26c7f7/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/107a2ef7bd6e2118bdab84e4ef26c7f7/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ef3d9aac9ea3ee22b452a43729b2f494/material-1.2.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-beta01] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ef3d9aac9ea3ee22b452a43729b2f494/material-1.2.0-beta01/AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android-support:2.27] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2dfe9b24057f7b494b12bf98c2cc6329/jetified-dagger-android-support-2.27/AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android-support:2.27] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2dfe9b24057f7b494b12bf98c2cc6329/jetified-dagger-android-support-2.27/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/37f8c4dd40cae9c335785b1e6a0e88cd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -174,6 +168,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/radoslawwa
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/cd7593004dafd610de9f86ca88185a2a/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/3f63eafe4376c05b371d776825dc11b9/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/df23371915922d127013655201aaad25/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/a246ee18fba8dceab827a6ac278c4cd3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.security:security-crypto:1.0.0-rc02] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7e37232d6a92b8121ef99aa3ad72d70f/jetified-security-crypto-1.0.0-rc02/AndroidManifest.xml:20:5-22:41
@@ -192,8 +188,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/radoslawwa
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ead8fb612c5fad5826afc2641cd43bce/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d683876f5130693e98bf4ba21fb941e4/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/af29add26a5f67c7219d6f64b06a38ea/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/f71d7dc39191d021f1770b7d2176cfcb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ac06e3be626ac6f177c83aa3c2ad0ed8/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -212,8 +206,8 @@ MERGED from [androidx.activity:activity:1.1.0] /Users/radoslawwawrzyniak/.gradle
 MERGED from [androidx.activity:activity:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/1f25c003df0eea10c87a8ff8e9921dd9/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/46c2ee308a9a97f4acb7c657f745a92c/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/310239738060b6f8195ae7134f46b483/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39d893ee71d090a56f402a8bdac8c4a3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/c016116914c2cc96fca7f212147f90c7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/806cd4b67264b44b11d4b92e828efd8d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -224,16 +218,8 @@ MERGED from [androidx.loader:loader:1.0.0] /Users/radoslawwawrzyniak/.gradle/cac
 MERGED from [androidx.loader:loader:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d02c1dd1b5420f0f04cccec08ca490f7/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9554e0a4f8f8c58f7343e08240abf122/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9554e0a4f8f8c58f7343e08240abf122/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e3aea6aaf02de817c1f5f8947c9e13fa/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/e3aea6aaf02de817c1f5f8947c9e13fa/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/d98a69bf057dfb214ca977a95c151f6f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/79cf9081f68900644955d7d95a744bff/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/79cf9081f68900644955d7d95a744bff/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2f90313392d1419250703c38c9ccf6aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/37d751689cb5e0822a4e71b69c0663db/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2668df430eade274b301a7d11ee4e666/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2668df430eade274b301a7d11ee4e666/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/2f305c0ed3056ca895a216f9db1fc5d1/core-1.3.0/AndroidManifest.xml:20:5-22:41
@@ -258,12 +244,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/rado
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/9c6aaa4abfd143056d89ebb2be28e969/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7f024e59f3910c53d9bf63c6f976ce5a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/ce37ab89a843637de77553e179bc8844/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/7522a317511b896357fb05378b56657c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/94132b6fc8fcdf2c4bf76697761162da/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/1113db8810613dc890be20566419a957/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/1113db8810613dc890be20566419a957/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39e4f193027f9d131e902cc7bf615044/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/39e4f193027f9d131e902cc7bf615044/jetified-crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/radoslawwawrzyniak/.gradle/caches/transforms-2/files-2.1/329222882f691ef5d555ffb8f98e48dc/jetified-beta-1.2.10/AndroidManifest.xml:7:5-43

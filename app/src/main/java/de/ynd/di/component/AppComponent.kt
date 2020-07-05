@@ -5,15 +5,19 @@ import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
+import de.ynd.di.module.ActivityProviderModule
+import de.ynd.di.module.FragmentProviderModule
 import de.ynd.di.module.ViewModelModule
 
 @Component(
     modules = [
         AndroidSupportInjectionModule::class,
+        ActivityProviderModule::class,
+        FragmentProviderModule::class,
         ViewModelModule::class
     ]
 )
-interface AppComponent: AndroidInjector<de.ynd.RecruitmentApplication> {
+interface AppComponent : AndroidInjector<de.ynd.RecruitmentApplication> {
 
     @Component.Builder
     interface Builder {
