@@ -8,4 +8,14 @@
     <!--//endregion title -->
 
     <string name="hint_password">Enter the password</string>
+
+    <string name="dialog_password_title">Enter password</string>
+    <string name="dialog_password_set_title">Set password</string>
+    <string name="dialog_password_password_hint">Password</string>
+    <string name="dialog_password_positive_button">Done</string>
+    <string name="dialog_password_negative_button">Cancel</string>
+    <string name="dialog_info_title">Password not set</string>
+    <string name="dialog_info_message">Before you can take a photo, sets the password please using lock icon in Toolbar</string>
+    <string name="ok">ok</string>
+    <string name="error_auth">Authenticate error</string>
 </resources>

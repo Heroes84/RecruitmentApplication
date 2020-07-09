@@ -11,11 +11,15 @@ import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.GridLayoutManager
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.snackbar.Snackbar
 import de.ynd.R
 import de.ynd.databinding.DesktopFragmentBinding
 import de.ynd.ui.BaseFragment
+import de.ynd.ui.component.dialog.passwordDialog
 import de.ynd.ui.viewModelDelegate
-import timber.log.Timber
 
 private val PERMISSIONS = arrayOf(
     Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -26,12 +30,15 @@ private val PERMISSIONS = arrayOf(
 private const val REQUEST_CODE_PERMISSIONS = 11
 private const val REQUEST_CODE_TAKE_PHOTO = 12
 
+private const val SPAN = 4
+
 private const val EXTRAS_PHOTO = "data"
 
 class DesktopFragment : BaseFragment() {
 
     private lateinit var binding: DesktopFragmentBinding
     private val viewModel by lazy { viewModelDelegate<DesktopViewModel>() }
+    private val photoAdapter = PhotoAdapter(arrayListOf())
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -48,6 +55,51 @@ class DesktopFragment : BaseFragment() {
         binding.toolbar.apply {
             setNavigationOnClickListener { requireActivity().finish() }
             setOnMenuItemClickListener { handleToolbarMenu(it) }
+        }
+        binding.recyclerView.apply {
+            adapter = photoAdapter
+            layoutManager = GridLayoutManager(requireContext(), SPAN)
+        }
+
+        viewModel.apply {
+            canShowSavePasswordDialog.observe(viewLifecycleOwner, Observer {
+                if (it) {
+                    savePasswordFromUser()
+                }
+            })
+            canShowPasswordDialog.observe(viewLifecycleOwner, Observer {
+                if (it) {
+                    passwordDialog(
+                        requireContext(),
+                        title = R.string.dialog_password_title,
+                        onPositiveButtonClicked = { password ->
+                            viewModel.verifyPassword(password)
+                        }
+                    ).show()
+                }
+            })
+            authError.observe(viewLifecycleOwner, Observer {
+                if (it) {
+                    Snackbar.make(binding.coordinator, R.string.error_auth, Snackbar.LENGTH_LONG).show()
+                }
+            })
+            takePhoto.observe(viewLifecycleOwner, Observer {
+                if (it) {
+                    verifyPermissionsAndTakePhoto()
+                } else {
+                    MaterialAlertDialogBuilder(requireContext())
+                        .setTitle(R.string.dialog_info_title)
+                        .setMessage(R.string.dialog_info_message)
+                        .setPositiveButton(R.string.ok) { _, _ -> /* no -op */ }
+                        .create()
+                        .show()
+                }
+            })
+            photoList.observe(viewLifecycleOwner, Observer {
+                if (it != null) {
+                    photoAdapter.newPhotos(it)
+                }
+            })
         }
     }
 
@@ -73,9 +125,14 @@ class DesktopFragment : BaseFragment() {
     ) {
         when (requestCode) {
             REQUEST_CODE_TAKE_PHOTO -> {
-                Timber.d("Have photo !")
-                if (resultCode == RESULT_OK && (data?.extras?.containsKey(EXTRAS_PHOTO) == true)) {
-                    viewModel.onNewPhoto(data.extras?.get(EXTRAS_PHOTO) as? Bitmap)
+                if (resultCode == RESULT_OK
+                    && (data?.extras?.containsKey(EXTRAS_PHOTO) == true)
+                    && (data.extras?.get(EXTRAS_PHOTO) as? Bitmap != null)
+                ) {
+                    viewModel.onNewPhoto(
+                        requireContext().filesDir,
+                        data.extras?.get(EXTRAS_PHOTO) as Bitmap
+                    )
                 }
             }
             else -> super.onActivityResult(requestCode, resultCode, data)
@@ -85,14 +142,25 @@ class DesktopFragment : BaseFragment() {
     private fun handleToolbarMenu(menuItem: MenuItem) =
         when (menuItem.itemId) {
             R.id.menu_add_photo -> {
-                verifyPermissionsAndTakePhoto()
+                viewModel.onTakePhotoClicked()
                 true
             }
             R.id.menu_password -> {
+                viewModel.onLockIcon()
                 true
             }
             else -> false
         }
+
+    private fun savePasswordFromUser() {
+        passwordDialog(
+            requireContext(),
+            title = R.string.dialog_password_set_title,
+            onPositiveButtonClicked = { password ->
+                viewModel.onSetPassword(password)
+            }
+        ).show()
+    }
 
     private fun verifyPermissionsAndTakePhoto() {
         if (checkAllPermissions(PERMISSIONS)) {

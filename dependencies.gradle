@@ -26,8 +26,8 @@ ext {
     ]
 
     google = [
-            material            : "com.google.android.material:material:1.2.0-beta01",
-            crashlytics         : 'com.crashlytics.sdk.android:crashlytics:2.10.1',
+            material   : "com.google.android.material:material:1.2.0-beta01",
+            crashlytics: 'com.crashlytics.sdk.android:crashlytics:2.10.1',
     ]
 
     //Third party lib not UI
@@ -46,6 +46,7 @@ ext {
             netowrk1               : "com.squareup.retrofit2:converter-moshi:${retrofit}",
             network2               : "com.squareup.retrofit2:adapter-rxjava2:${retrofit}",
             moshi                  : "com.squareup.moshi:moshi-kotlin:${moshi}",
+            okio                   : 'com.squareup.okio:okio:2.7.0',
             network_log            : 'com.squareup.okhttp3:logging-interceptor:4.2.1',
             logger                 : 'com.jakewharton.timber:timber:4.7.1',
     ]
