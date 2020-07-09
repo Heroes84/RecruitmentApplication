@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <variable
             name="vm"
             type="de.ynd.ui.desktop.DesktopViewModel" />
@@ -24,11 +25,18 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:minHeight="?attr/actionBarSize"
-                app:navigationIcon="@drawable/ic_arrow_back"
                 app:menu="@menu/menu_toolbar"
-                app:title="@string/label_desktop"/>
+                app:navigationIcon="@drawable/ic_arrow_back"
+                app:title="@string/label_desktop" />
 
         </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
